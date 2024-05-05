@@ -10,6 +10,7 @@ body {
     text-align: center;
 }
 
+/* Navigation Bar Styles */
 
 .header {
     background-color: #ff7f50;
@@ -59,3 +60,30 @@ body {
 .btn:hover {
     background-color: #d0b63e;
 }
+
+/* Pets Section Styles */
+
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    }
+
+    .pet-profile {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: left;
+    }
+
+    .pet-profile img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    }
+
+    .pet-profile h3 {
+    margin-bottom: 8px;
+    }
