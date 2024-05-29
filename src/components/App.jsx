@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react';
+import TrendingSection from './TrendingSection';
 
-function App() {
-  return <h1>Welcome</h1>
-}
+
+const App = () => {
+  return (
+    <div className="App">
+      <TrendingSection />
+    </div>
+  );
+};
 
 export default App;
