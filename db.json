@@ -1,1 +1,39 @@
-{}
+{
+  "movies": [
+    { "id": 1, "title": "Frozen", "poster": "/images/movies/frozen.jpg", "runtime": "102 min", "releaseDate": "2013-11-27" },
+    { "id": 2, "title": "Tangled", "poster": "/images/movies/tangled.jpg", "runtime": "100 min", "releaseDate": "2010-11-24" },
+    { "id": 3, "title": "Moana", "poster": "/images/movies/moana.jpg", "runtime": "107 min", "releaseDate": "2016-11-23" },
+    { "id": 4, "title": "Zootopia", "poster": "/images/movies/zoo.jpg", "runtime": "108 min", "releaseDate": "2016-03-04" },
+    { "id": 5, "title": "Toy Story 4", "poster": "/images/movies/toy.jpg", "runtime": "100 min", "releaseDate": "2019-06-21" },
+    { "id": 6, "title": "Coco", "poster": "/images/movies/coco.jpg", "runtime": "105 min", "releaseDate": "2017-11-22" },
+    { "id": 7, "title": "The Incredibles", "poster": "/images/movies/incredibles.jpg", "runtime": "115 min", "releaseDate": "2004-11-05" },
+    { "id": 8, "title": "Finding Nemo", "poster": "/images/movies/nemo.jpg", "runtime": "100 min", "releaseDate": "2003-05-30" },
+    { "id": 9, "title": "Inside Out", "poster": "/images/movies/inside.jpg", "runtime": "95 min", "releaseDate": "2015-06-19" },
+    { "id": 10, "title": "Frozen II", "poster": "/images/movies/frozen2.jpeg", "runtime": "103 min", "releaseDate": "2019-11-22" },
+    { "id": 11, "title": "Big Hero 6", "poster": "/images/movies/big.jpeg", "runtime": "102 min", "releaseDate": "2014-11-07" },
+    { "id": 12, "title": "Ratatouille", "poster": "/images/movies/rat.jpg", "runtime": "111 min", "releaseDate": "2007-06-29" },
+    { "id": 13, "title": "Wreck-It Ralph", "poster": "/images/movies/wreck.jpg", "runtime": "101 min", "releaseDate": "2012-11-02" },
+    { "id": 14, "title": "Brave", "poster": "/images/movies/brave.jpg", "runtime": "93 min", "releaseDate": "2012-06-22" },
+    { "id": 15, "title": "Monsters, Inc.", "poster": "/images/movies/monsters.jpeg", "runtime": "92 min", "releaseDate": "2001-11-02" },
+    { "id": 16, "title": "Despicable Me", "poster": "/images/movies/despicable.jpg", "runtime": "95 min", "releaseDate": "2010-07-09" }
+  ],
+
+  "tvshows": [
+    { "id": 1, "title": "Avatar: The Last Airbender", "poster": "./images/tvshows/avatar.jpg", "runtime": "3 seasons", "releaseDate": "2005-02-21" },
+    { "id": 2, "title": "The Legend of Korra", "poster": "./images/tvshows/korra.jpg", "runtime": "4 seasons", "releaseDate": "2012-04-14" },
+    { "id": 3, "title": "Gravity Falls", "poster": "./images/tvshows/gravity.jpg", "runtime": "2 seasons", "releaseDate": "2012-06-15" },
+    { "id": 4, "title": "Sponge Bob Square Pants", "poster": "./images/tvshows/spongebob.jpg", "runtime": "13+ seasons", "releaseDate": "1999-05-01" },
+    { "id": 5, "title": "Adventure Time", "poster": "./images/tvshows/adventure.jpg", "runtime": "10 seasons", "releaseDate": "2010-04-05" },
+    { "id": 6, "title": "Steven Universe", "poster": "./images/tvshows/steven.jpg", "runtime": "5 seasons", "releaseDate": "2013-11-04" },
+    { "id": 7, "title": "Ben 10", "poster": "./images/tvshows/ben.jpg", "runtime": "4 seasons", "releaseDate": "2005-12-27" },
+    { "id": 8, "title": "Ultimate Spider-Man", "poster": "./images/tvshows/spiderman.jpg", "runtime": "4 seasons", "releaseDate": "2012-04-01" },
+    { "id": 9, "title": "The Fairly OddParents", "poster": "./images/tvshows/timmy.jpg", "runtime": "10 seasons", "releaseDate": "2001-03-30" },
+    { "id": 10, "title": "Regular Show", "poster": "./images/tvshows/regular.jpg", "runtime": "8 seasons", "releaseDate": "2010-09-06" },
+    { "id": 11, "title": "The Looney Tunes Show", "poster": "./images/tvshows/looney.jpg", "runtime": "2 seasons", "releaseDate": "2011-05-03" },
+    { "id": 12, "title": "Teen Titans", "poster": "./images/tvshows/teen.jpg", "runtime": "5 seasons", "releaseDate": "2003-07-19" },
+    { "id": 13, "title": "Peppa Pig", "poster": "./images/tvshows/peppa.jpg", "runtime": "7+ seasons", "releaseDate": "2004-05-31" },
+    { "id": 14, "title": "What's New, Scooby-Doo?", "poster": "./images/tvshows/scooby.jpg", "runtime": "3 seasons", "releaseDate": "2002-09-14" },
+    { "id": 15, "title": "The Garfield Show", "poster": "./images/tvshows/garfield.jpg", "runtime": "5 seasons", "releaseDate": "2009-10-02" },
+    { "id": 16, "title": "The Powerpuff Girls", "poster": "./images/tvshows/power.jpg", "runtime": "6 seasons", "releaseDate": "1998-11-18" }
+  ]
+}
