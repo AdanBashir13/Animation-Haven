@@ -1,15 +1,16 @@
-// src/App.jsx
 import React from 'react';
 import Navbar from './Navbar';
+import TrendingSection from './TrendingSection';
 
 
-function App() {
-  console.log("App component loaded"); // Add this line
+const App = () => {
   return (
+    console.log("App component loaded"); // Add this line
     <div className="App">
       <Navbar />
+      <TrendingSection />
     </div>
   );
-}
+};
 
 export default App;

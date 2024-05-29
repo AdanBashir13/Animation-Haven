@@ -1,4 +1,9 @@
-/* src/Navbar.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  padding: 0;
+}
 
 .navbar {
     display: flex;
@@ -55,4 +60,67 @@
       gap: 1rem;
     }
   }
-  
+.trending-section {
+  padding: 40px 20px;
+  max-width: 1400px;
+  margin: 20px auto;
+}
+
+.trending-section h2 {
+  text-align: left;
+  font-size: 22px;
+  color: black;
+  margin-bottom: 20px;
+  border-bottom: 2px solid darkgray;
+  padding-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.137);
+  overflow: hidden;
+  width: 150px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.356);
+}
+
+.card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: black;
+}
+
+.card p {
+  margin: 0 0 10px 0;
+  color: gray;
+}
+
+.trending-movies,
+.trending-shows,
+.latest-movies,
+.latest-shows {
+  margin-bottom: 60px;
+}
+
