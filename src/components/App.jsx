@@ -1,7 +1,15 @@
-import React from "react";
+// src/App.jsx
+import React from 'react';
+import Navbar from './Navbar';
+
 
 function App() {
-  return <h1>Welcome</h1>
+  console.log("App component loaded"); // Add this line
+  return (
+    <div className="App">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
