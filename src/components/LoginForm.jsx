@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 
 const LoginForm = () => {
   return (
@@ -26,7 +25,7 @@ const LoginForm = () => {
         <div className="input-box">
           <input type="password" placeholder="password" required />
         </div>
-        <button type="submit">Log in</button>
+        <button type="submit">Sign up</button>
       </form>
     </div>
   );
