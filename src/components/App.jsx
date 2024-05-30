@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import TrendingSection from './TrendingSection';
+import LoginForm from './LoginForm';
 
 
 const App = () => {

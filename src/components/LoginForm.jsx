@@ -1,31 +1,31 @@
 import React from "react";
+import "./index.css";
 
 const LoginForm = () => {
   return (
     <div className="wrapper">
       <form action="">
         <h1>Login</h1>
-        {/* Username field */}
+        {/* Username*/}
         <div className="input-box">
           <input type="text" placeholder="Username" required />
         </div>
-        {/* Email address field */}
+        {/* Email address */}
         <div className="input-box">
           <input type="text" placeholder="email address" required />
         </div>
-        {/* Contact field */}
+        {/* Contact */}
         <div className="input-box">
           <input type="text" placeholder="contact" required />
         </div>
-        {/* Center field */}
+        {/* Center */}
         <div className="input-box">
           <input type="text" placeholder="Center" required />
         </div>
-        {/* Password field */}
+        {/* Password */}
         <div className="input-box">
           <input type="password" placeholder="password" required />
         </div>
-        {/* Submit button */}
         <button type="submit">Log in</button>
       </form>
     </div>
