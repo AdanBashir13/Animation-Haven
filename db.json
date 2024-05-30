@@ -35,5 +35,106 @@
     { "id": 14, "title": "What's New, Scooby-Doo?", "poster": "./images/tvshows/scooby.jpg", "runtime": "3 seasons", "releaseDate": "2002-09-14" },
     { "id": 15, "title": "The Garfield Show", "poster": "./images/tvshows/garfield.jpg", "runtime": "5 seasons", "releaseDate": "2009-10-02" },
     { "id": 16, "title": "The Powerpuff Girls", "poster": "./images/tvshows/power.jpg", "runtime": "6 seasons", "releaseDate": "1998-11-18" }
-  ]
+
+  ],
+
+
+
+
+
+
+  "adventureMovies": [
+    {"id": 1, "title": "The Lion King", "poster": "/images/movies/lion.jpg", "runtime": "88 min", "releaseDate": "1994-06-15"},
+    {"id": 2, "title": "Moana", "poster": "/images/movies/moana.jpg", "runtime": "107 min", "releaseDate": "2016-11-23"},
+    {"id": 3, "title": "Aladdin", "poster": "/images/movies/alladin.jpg", "runtime": "90 min", "releaseDate": "1992-11-25"},
+    {"id": 4, "title": "Finding Nemo", "poster": "/images/movies/nemo.jpg", "runtime": "100 min", "releaseDate": "2003-05-30"},
+    {"id": 5, "title": "Zootopia", "poster": "/images/movies/zoo.jpg", "runtime": "108 min", "releaseDate": "2016-03-04"},
+    {"id": 6, "title": "The Incredibles", "poster": "/images/movies/incredibles.jpg", "runtime": "115 min", "releaseDate": "2004-11-05"},
+    {"id": 7, "title": "Raya and the Last Dragon", "poster": "/images/movies/raya.jpg", "runtime": "107 min", "releaseDate": "2021-03-05"},
+    {"id": 8, "title": "Big Hero 6", "poster": "/images/movies/big.jpeg", "runtime": "102 min", "releaseDate": "2014-11-07"}
+  ],
+
+  "dramaMovies": [
+    {"id": 1, "title": "Spirited Away", "poster": "/images/movies/spirit.jpg", "runtime": "125 min", "releaseDate": "2001-07-20"},
+    {"id": 2, "title": "Up", "poster": "/images/movies/up.jpg", "runtime": "96 min", "releaseDate": "2009-05-29"},
+    {"id": 3, "title": "The Iron Giant", "poster": "/images/movies/iron.jpg", "runtime": "86 min", "releaseDate": "1999-08-06"},
+    {"id": 4, "title": "Wall-E", "poster": "/images/movies/wall.jpg", "runtime": "98 min", "releaseDate": "2008-06-27"},
+    {"id": 5, "title": "Coco", "poster": "/images/movies/coco.jpg", "runtime": "105 min", "releaseDate": "2017-11-22"},
+    {"id": 6, "title": "Inside Out", "poster": "/images/movies/inside.jpg", "runtime": "95 min", "releaseDate": "2015-06-19"},
+    {"id": 7, "title": "Grave of the Fireflies", "poster": "/images/movies/grave.jpg", "runtime": "89 min", "releaseDate": "1988-04-16"},
+    {"id": 8, "title": "The Wind Rises", "poster": "/images/movies/wind.jpg", "runtime": "126 min", "releaseDate": "2013-07-20"}
+  ],
+
+  "fantasyMovies": [
+    {"id": 1, "title": "How to Train Your Dragon", "poster": "/images/movies/how.jpg", "runtime": "98 min", "releaseDate": "2010-03-26"},
+    {"id": 2, "title": "My Neighbor Totoro", "poster": "/images/movies/totoro.jpg", "runtime": "86 min", "releaseDate": "1988-04-16"},
+    {"id": 3, "title": "Kubo and the Two Strings", "poster": "/images/movies/kubo.jpg", "runtime": "101 min", "releaseDate": "2016-08-19"},
+    {"id": 4, "title": "The Secret of Kells", "poster": "/images/movies/secret.jpg", "runtime": "75 min", "releaseDate": "2009-02-09"},
+    {"id": 5, "title": "Castle in the Sky", "poster": "/images/movies/castle.jpg", "runtime": "125 min", "releaseDate": "1986-08-02"},
+    {"id": 6, "title": "Spirited Away", "poster": "/images/movies/spirit.jpg", "runtime": "125 min", "releaseDate": "2001-07-20"},
+    {"id": 7, "title": "Ponyo", "poster": "/images/movies/ponyo.jpg", "runtime": "101 min", "releaseDate": "2008-07-19"},
+    {"id": 8, "title": "The Cat Returns", "poster": "/images/movies/cat.jpg", "runtime": "75 min", "releaseDate": "2002-07-19"}
+  ],
+
+  "educationalMovies": [
+    {"id": 1, "title": "Planet Earth", "poster": "/images/movies/planet.jpg", "runtime": "60 min", "releaseDate": "2006-03-05"},
+    {"id": 2, "title": "March of the Penguins", "poster": "/images/movies/penguin.jpg", "runtime": "80 min", "releaseDate": "2005-01-26"},
+    {"id": 3, "title": "Inside Out", "poster": "/images/movies/inside.jpg", "runtime": "95 min", "releaseDate": "2015-06-19"},
+    {"id": 4, "title": "Finding Nemo", "poster": "/images/movies/nemo.jpg", "runtime": "100 min", "releaseDate": "2003-05-30"},
+    {"id": 5, "title": "Big Hero 6", "poster": "/images/movies/big.jpeg", "runtime": "102 min", "releaseDate": "2014-11-07"},
+    {"id": 6, "title": "Moana", "poster": "/images/movies/moana.jpg", "runtime": "107 min", "releaseDate": "2016-11-23"},
+    {"id": 7, "title": "Coco", "poster": "/images/movies/coco.jpg", "runtime": "105 min", "releaseDate": "2017-11-22"},
+    {"id": 8, "title": "The Incredibles", "poster": "/images/movies/incredibles.jpg", "runtime": "115 min", "releaseDate": "2004-11-05"}
+  ],
+
+
+
+
+
+
+
+
+  "actionShows": [
+    {"id": 1, "title": "Avatar: The Last Airbender", "poster": "./images/tvshows/avatar.jpg", "seasons": "3 seasons", "releaseDate": "2005-02-21"},
+    {"id": 2, "title": "Young Justice", "poster": "./images/tvshows/young.jpg", "seasons": "4 seasons", "releaseDate": "2010-11-26"},
+    {"id": 3, "title": "Batman: The Animated Series", "poster": "./images/tvshows/batman.jpg", "seasons": "4 seasons", "releaseDate": "1992-09-05"},
+    {"id": 4, "title": "Rick and Morty", "poster": "./images/tvshows/r&m.jpg", "seasons": "5 seasons", "releaseDate": "2013-12-02"},
+    {"id": 5, "title": "Adventure Time", "poster": "./images/tvshows/adventure.jpg", "seasons": "10 seasons", "releaseDate": "2010-04-05"},
+    {"id": 6, "title": "Gravity Falls", "poster": "./images/tvshows/gravity.jpg", "seasons": "2 seasons", "releaseDate": "2012-06-15"},
+    {"id": 7, "title": "Voltron: Legendary Defender", "poster": "./images/tvshows/voltron.jpg", "seasons": "8 seasons", "releaseDate": "2016-06-10"},
+    {"id": 8, "title": "Naruto", "poster": "./images/tvshows/naruto.jpg", "seasons": "22 seasons", "releaseDate": "2002-10-03"}
+  ],
+
+  "comedyShows": [
+    {"id": 1, "title": "SpongeBob SquarePants", "poster": "./images/tvshows/spongebob.jpg", "seasons": "13 seasons", "releaseDate": "1999-05-01"},
+    {"id": 2, "title": "The Simpsons", "poster": "./images/tvshows/simpsons.jpg", "seasons": "33 seasons", "releaseDate": "1989-12-17"},
+    {"id": 3, "title": "Paw Patrol", "poster": "./images/tvshows/paw.jpg", "seasons": "8 seasons", "releaseDate": "2013-08-12"},
+    {"id": 4, "title": "Peppa Pig", "poster": "./images/tvshows/peppa.jpg", "seasons": "7 seasons", "releaseDate": "2004-05-31"},
+    {"id": 5, "title": "My Little Pony: Friendship Is Magic", "poster": "./images/tvshows/pony.jpg", "seasons": "9 seasons", "releaseDate": "2010-10-10"},
+    {"id": 6, "title": "The Fairly OddParents", "poster": "./images/tvshows/timmy.jpg", "seasons": "10 seasons", "releaseDate": "2001-03-30"},
+    {"id": 7, "title": "Tom and Jerry", "poster": "./images/tvshows/t&j.jpg", "seasons": "14 seasons", "releaseDate": "1940-02-10"},
+    {"id": 8, "title": "Shaun the Sheep", "poster": "./images/tvshows/sheep.jpg", "seasons": "6 seasons", "releaseDate": "2007-03-05"}
+  ],
+
+  "dramaShows": [
+    {"id": 1, "title": "Dora the Explorer", "poster": "./images/tvshows/dora.jpg", "seasons": "8 seasons", "releaseDate": "2000-08-14"},
+    {"id": 2, "title": "Arthur", "poster": "./images/tvshows/arthur.jpg", "seasons": "25 seasons", "releaseDate": "1996-09-02"},
+    {"id": 3, "title": "Daniel Tiger's Neighborhood", "poster": "./images/tvshows/tiger.jpg", "seasons": "5 seasons", "releaseDate": "2012-09-03"},
+    {"id": 4, "title": "Bluey", "poster": "./images/tvshows/bluey.jpg", "seasons": "3 seasons", "releaseDate": "2018-10-01"},
+    {"id": 5, "title": "American Dragon", "poster": "./images/tvshows/dragon.jpg", "seasons": "5 seasons", "releaseDate": "2012-03-23"},
+    {"id": 6, "title": "Octonauts", "poster": "./images/tvshows/octo.jpg", "seasons": "5 seasons", "releaseDate": "2010-10-04"},
+    {"id": 7, "title": "PJ Masks", "poster": "./images/tvshows/pj.jpg", "seasons": "5 seasons", "releaseDate": "2015-09-18"},
+    {"id": 8, "title": "Mickey Mouse Clubhouse", "poster": "./images/tvshows/mickey.jpg", "seasons": "5 seasons", "releaseDate": "2006-05-05"}
+  ],
+
+  "fantasyShows": [
+    {"id": 1, "title": "My Little Pony: Friendship Is Magic", "poster": "./images/tvshows/pony.jpg", "seasons": "9 seasons", "releaseDate": "2010-10-10"},
+    {"id": 2, "title": "Winx Club", "poster": "./images/tvshows/winx.jpg", "seasons": "8 seasons", "releaseDate": "2004-01-28"},
+    {"id": 3, "title": "Elena of Avalor", "poster": "./images/tvshows/elena.jpg", "seasons": "3 seasons", "releaseDate": "2016-07-22"},
+    {"id": 4, "title": "She-Ra and the Princesses of Power", "poster": "./images/tvshows/shera.jpg", "seasons": "5 seasons", "releaseDate": "2018-11-13"},
+    {"id": 5, "title": "Dragon Tales", "poster": "./images/tvshows/tales.jpg", "seasons": "3 seasons", "releaseDate": "1999-09-06"},
+    {"id": 6, "title": "The Dragon Prince", "poster": "./images/tvshows/prince.jpg", "seasons": "4 seasons", "releaseDate": "2018-09-14"},
+    {"id": 7, "title": "Trollhunters", "poster": "./images/tvshows/troll.jpg", "seasons": "3 seasons", "releaseDate": "2016-12-23"},
+    {"id": 8, "title": "The Owl House", "poster": "./images/tvshows/owl.jpg", "runtime": "4 seasons", "releaseDate": "2020-01-10"}
+   ]
 }

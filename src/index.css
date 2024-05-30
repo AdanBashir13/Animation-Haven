@@ -6,62 +6,66 @@ body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(175, 90, 142);
-    padding: 1rem 2rem;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(175, 90, 142);
+  padding: 16px 32px;
+}
 
 .navbar img {
-    height: 100px;
-    width: auto;
-    display: inline;
-  }
+  height: 100px;
+  width: auto;
+  display: inline;
+}
 
 .navbar-links {
-    list-style: none;
-    display: flex;
-    gap: 24px;
-  }
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
 
 .navbar-links li {
-    display: inline;
-  }
+  display: inline;
+}
 
 .navbar-links a {
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 23px;
-    transition: text-decoration 0.3s ease;
-  }
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 23px;
+  transition: text-decoration 0.3s ease;
+}
 
 .navbar-links a:hover {
-    color: orange;
-    text-decoration: underline;
-  }
+  color: orange;
+  text-decoration: underline;
+}
 
 .navbar-links a:focus {
-    outline: 2px solid orange;
-    outline-offset: 2px;
-  }
+  outline: 2px solid orange;
+  outline-offset: 2px;
+}
 
 .navbar-links a.active {
-    border-bottom: 2px solid orange;
-  }
+  border-bottom: 2px solid orange;
+}
 
-.trending-section {
+.trending-section,
+.movies-page .section,
+.tv-shows-page .section {
   padding: 40px 20px;
   max-width: 1400px;
   margin: 20px auto;
 }
 
-.trending-section h2 {
+.trending-section h2,
+.movies-page .section h2,
+.tv-shows-page .section h2 {
   text-align: left;
   font-size: 22px;
   color: black;
   margin-bottom: 20px;
-  border-bottom: 2px solid darkgray;
+  border-bottom: 2px solid rgba(169, 169, 169, 0.979);
   padding-bottom: 10px;
 }
 
@@ -76,9 +80,9 @@ body {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.137);
-  overflow: hidden;
   width: 150px;
   text-align: center;
+
 }
 
 .card:hover {
@@ -110,7 +114,7 @@ body {
 .trending-movies,
 .trending-shows,
 .latest-movies,
-.latest-shows {
+.latest-shows{
   margin-bottom: 60px;
 }
 
@@ -166,5 +170,3 @@ hr {
   background: yellow;
   margin: 20px 0;
 }
-
-
