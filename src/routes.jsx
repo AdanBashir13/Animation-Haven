@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import MoviesPage from './pages/MoviesPage';
 import TVShowsPage from './pages/TVShowsPage';
 import TopRatedPage from './pages/TopRatedPage';
+import LoginForm from './pages/SignupForm';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/top-rated',
     element: <TopRatedPage />
+  },
+  {
+    path: '/login',
+    element: <LoginForm />
   },
 ]);
 
