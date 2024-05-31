@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+
+// State variables to hold fetched data
 const MoviesPage = () => {
   const [adventureMovies, setAdventureMovies] = useState([]);
   const [dramaMovies, setDramaMovies] = useState([]);
   const [fantasyMovies, setFantasyMovies] = useState([]);
   const [educationalMovies, setEducationalMovies] = useState([]);
 
+  // Fetching data from local api Endpoints with useEffect
   useEffect(() => {
     fetch('http://localhost:3000/adventureMovies')
       .then(response => response.json())
@@ -38,6 +41,8 @@ const MoviesPage = () => {
         <div className="card-container">
           {adventureMovies.map(movie => (
             <div key={movie.id} className="card">
+
+              {/* Link to navigate to signup page */}
               <Link to="/login">
                 <img src={movie.poster} alt={movie.title} />
                 <div className="movie-details">
@@ -51,6 +56,7 @@ const MoviesPage = () => {
         </div>
       </div>
 
+      {/* Drama movies section */}
       <div className="section drama-movies">
         <h2>Drama Movies</h2>
         <div className="card-container">
@@ -69,6 +75,7 @@ const MoviesPage = () => {
         </div>
       </div>
 
+{/* fantasy movies section */}
       <div className="section fantasy-movies">
         <h2>Fantasy Movies</h2>
         <div className="card-container">
@@ -87,6 +94,7 @@ const MoviesPage = () => {
         </div>
       </div>
 
+{/*Educational movies section  */}
       <div className="section educational-movies">
         <h2>Educational Movies</h2>
         <div className="card-container">

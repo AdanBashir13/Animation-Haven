@@ -172,43 +172,78 @@ hr {
 }
 
 .wrapper {
-  width: 300px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
+  background-color: whitesmoke;
+  padding: 40px;
+  border-radius: 10px;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: darkgray;
 }
 
 .input-box {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: black;
 }
 
 .input-box input {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
+  padding: 15px;
+  border: 1px solid gray;
   border-radius: 5px;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 button {
   width: 100%;
-  padding: 10px;
-  background-color: darkgreen;
-  color: #fff;
+  padding: 15px;
+  background-color: green;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 19px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: darkgreen;
+}
+
+.thank-you-message {
+  padding: 60px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-message h1 {
+  margin-bottom: 30px;
+  color: green;
+  font-size: 40px;
+}
+
+.thank-you-message p {
+  font-size: 24px;
+  color: dimgray;
 }

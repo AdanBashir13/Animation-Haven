@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+// State variables to hold fetched data
 const TopRatedPage = () => {
   const [topRatedMovies, setTopRatedMovies] = useState([]);
   const [topRatedShows, setTopRatedShows] = useState([]);
 
+// using UseEffect to fetch data
   useEffect(() => {
     fetch('http://localhost:3000/movies')
       .then(response => response.json())
@@ -23,12 +25,14 @@ const TopRatedPage = () => {
         <Navbar />
       </header>
 
+{/* Top rated movies section */}
       <div className="trending-section">
         <div className="section trending-movies">
           <h2>Top Rated Movies</h2>
           <div className="card-container">
             {topRatedMovies.map(movie => (
               <div key={movie.id} className="card">
+                {/* Link to navuagte to signup page */}
                 <Link to={`/movies/${movie.id}`}>
                   <img src={movie.poster} alt={movie.title} />
                   <div className="movie-details">
@@ -42,6 +46,7 @@ const TopRatedPage = () => {
           </div>
         </div>
 
+{/* Top rated shows section */}
         <div className="section trending-shows">
           <h2>Top Rated Shows</h2>
           <div className="card-container">
