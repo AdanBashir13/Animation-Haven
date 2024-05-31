@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import MoviesPage from './pages/MoviesPage';
 import TVShowsPage from './pages/TVShowsPage';
+import TopRatedPage from './pages/TopRatedPage';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/tvshows',
     element: <TVShowsPage />,
+  },
+  {
+    path: '/top-rated',
+    element: <TopRatedPage />
   },
 ]);
 
