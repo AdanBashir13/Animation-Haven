@@ -1,8 +1,31 @@
-# React + Vite
+# Animation-Haven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This README provides an overview of the code structure and functionality of the website.
 
-Currently, two official plugins are available:
+## Desciption
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This README provides an overview of the code structure and functionality of the website.
+
+## Set up and Installation
+
+To use this website code, simply fork and clone this repository as it contains files that depend on each other and place them in the same directory.
+Then run the project with the following command in the terminal **npm run dev**. To start the local server run **json-server --watch db.json**.
+
+## Authors
+Adan Bashir
+Wambui Ndirangu
+Alaak Elijah
+
+## Technology Used
+
+- **index.html**: Contains the React and ReactDOM library.
+- **index.css**: Contains the CSS styling for the website.
+- **main.jsx**: Contains JSX code for rendering the routes.
+
+## License
+
+This code is provided under the <a href="https://opensource.org/licenses/MIT">MIT License</a>. You are free to use, modify, and distribute the code for personal and commercial use.
+
+## Contact
+
+For any inquiries or issues regarding this code, please contact me at imdedsec1120@gmail.com.
